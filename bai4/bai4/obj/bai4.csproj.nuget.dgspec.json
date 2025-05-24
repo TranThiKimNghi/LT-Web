@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kim Nghi\\source\\repos\\bai4\\bai4\\bai4.csproj": {}
+    "C:\\Users\\Kim Nghi\\source\\repos\\Web\\bai4\\bai4\\bai4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kim Nghi\\source\\repos\\bai4\\bai4\\bai4.csproj": {
+    "C:\\Users\\Kim Nghi\\source\\repos\\Web\\bai4\\bai4\\bai4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kim Nghi\\source\\repos\\bai4\\bai4\\bai4.csproj",
+        "projectUniqueName": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\bai4\\bai4\\bai4.csproj",
         "projectName": "bai4",
-        "projectPath": "C:\\Users\\Kim Nghi\\source\\repos\\bai4\\bai4\\bai4.csproj",
+        "projectPath": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\bai4\\bai4\\bai4.csproj",
         "packagesPath": "C:\\Users\\Kim Nghi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kim Nghi\\source\\repos\\bai4\\bai4\\obj\\",
+        "outputPath": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\bai4\\bai4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kim Nghi\\AppData\\Roaming\\NuGet\\NuGet.Config",

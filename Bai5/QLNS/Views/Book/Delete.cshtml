@@ -1,0 +1,49 @@
+﻿@model QLNS.Models.Book
+
+@{
+    ViewData["Title"] = "Xóa sách";
+}
+
+<h2 class="text-danger mb-4">Bạn có chắc chắn muốn xóa cuốn sách này không?</h2>
+
+<div class="card border-danger mb-4">
+    <div class="card-header bg-danger text-white fw-bold">
+        Thông tin sách
+    </div>
+    <div class="card-body">
+        <div class="row mb-3">
+            <div class="col-sm-3 text-primary fw-bold">Tiêu đề</div>
+            <div class="col-sm-9">@Model.Title</div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm-3 text-primary fw-bold">Mô tả</div>
+            <div class="col-sm-9">@Model.Description</div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm-3 text-primary fw-bold">Tác giả</div>
+            <div class="col-sm-9">@Model.Author</div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm-3 text-primary fw-bold">Giá</div>
+            <div class="col-sm-9">@Model.Price.ToString("n0") VNĐ</div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm-3 text-primary fw-bold">Hình ảnh</div>
+            <div class="col-sm-9">
+                <img src="~/@Model.ImageUrl" alt="@Model.Title" class="img-thumbnail" width="150" />
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm-3 text-primary fw-bold">Chủ đề</div>
+            <div class="col-sm-9">@Model.Category?.CategoryName</div>
+        </div>
+    </div>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <div class="text-end">
+        <button type="submit" class="btn btn-danger px-4 me-2">Xóa</button>
+        <a asp-action="Index" class="btn btn-outline-primary">Quay lại</a>
+    </div>
+</form>

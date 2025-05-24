@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Kim Nghi\\source\\repos\\bai4\\",
+  "WorkspaceRootPath": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\bai4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FC7FC5F-8F4F-473C-B1FB-B12E8C4349F3}|bai4\\bai4.csproj|c:\\users\\kim nghi\\source\\repos\\bai4\\bai4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6FC7FC5F-8F4F-473C-B1FB-B12E8C4349F3}|bai4\\bai4.csproj|c:\\users\\kim nghi\\source\\repos\\web\\bai4\\bai4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6FC7FC5F-8F4F-473C-B1FB-B12E8C4349F3}|bai4\\bai4.csproj|solutionrelative:bai4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FC7FC5F-8F4F-473C-B1FB-B12E8C4349F3}|bai4\\bai4.csproj|c:\\users\\kim nghi\\source\\repos\\bai4\\bai4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6FC7FC5F-8F4F-473C-B1FB-B12E8C4349F3}|bai4\\bai4.csproj|c:\\users\\kim nghi\\source\\repos\\web\\bai4\\bai4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6FC7FC5F-8F4F-473C-B1FB-B12E8C4349F3}|bai4\\bai4.csproj|solutionrelative:bai4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\bai4\\bai4\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\bai4\\bai4\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "bai4\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\bai4\\bai4\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\bai4\\bai4\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "bai4\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAQCAAAAAAAAAAAcwCkCAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0CAAAAAAAAAAAwwCICAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-14T10:12:34.396Z",
               "EditorCaption": ""
@@ -49,14 +49,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\bai4\\bai4\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\bai4\\bai4\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "bai4\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\bai4\\bai4\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\bai4\\bai4\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "bai4\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAGgEAAAAAAAAAAAcwI0EAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T10:12:20.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T10:12:20.731Z"
             }
           ]
         }

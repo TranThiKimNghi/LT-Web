@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - QLNS</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/QLNS.styles.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+
+
+</head>
+<body class="bg-blue-50 text-blue-900 font-sans">
+
+    <!-- Header / Navbar -->
+    <header class="bg-blue-700 shadow">
+        <nav class="container mx-auto flex justify-between items-center py-3 px-4">
+            <a class="text-2xl font-semibold text-white hover:text-blue-200" asp-controller="Home" asp-action="Index">📚 Trang chủ</a>
+            <ul class="flex space-x-6 text-base font-medium">
+                <li>
+                    <a class="text-blue-100 hover:text-white transition" asp-controller="Home" asp-action="Index">Đăng kí</a>
+                </li>
+                <li>
+                    <a class="text-blue-100 hover:text-white transition" asp-controller="Home" asp-action="Index">Đăng nhập</a>
+                </li>
+                <li>
+                    <a class="text-blue-100 hover:text-white transition" asp-controller="Home" asp-action="Index">Giỏ hàng</a>
+                </li>
+            </ul>
+
+
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <section class="bg-white p-6 rounded-lg shadow-sm border border-blue-200">
+            @RenderBody()
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-blue-100 border-t border-blue-300 text-center py-4 mt-10 text-blue-800 text-sm">
+        <div class="container mx-auto">
+            &copy; 2025 - Quản lý sách |
+            <a class="text-blue-700 hover:underline" asp-controller="Home" asp-action="Privacy">Tran Thi Kim Nghi</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>
