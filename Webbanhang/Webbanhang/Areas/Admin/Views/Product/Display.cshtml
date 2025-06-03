@@ -1,0 +1,76 @@
+﻿@model Webbanhang.Models.Product
+
+<style>
+    body {
+        background-color: #1a233a;
+        color: #d0d9ff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h2 {
+        color: #a3c4f3;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    h3 {
+        color: #7abaff;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+        color: #c3d0ff;
+        margin-bottom: 1.5rem;
+        line-height: 1.5;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto 2rem auto;
+        max-width: 200px;
+        border-radius: 0.75rem;
+        box-shadow: 0 0 12px #7abaff88;
+    }
+
+    a.back-link {
+        display: inline-block;
+        background-color: #7abaff;
+        color: #1a233a;
+        padding: 0.5rem 1.25rem;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        text-decoration: none;
+        box-shadow: 0 0 12px #7abaffcc;
+        transition: background-color 0.3s ease;
+    }
+
+        a.back-link:hover {
+            background-color: #558cd4;
+            color: #fff;
+            box-shadow: 0 0 16px #335ec9cc;
+        }
+
+    div.content-container {
+        max-width: 600px;
+        margin: 2rem auto;
+        background: linear-gradient(145deg, #2a3a72, #1b2650);
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 15px #4462ffcc;
+        text-align: center;
+    }
+</style>
+
+<div class="content-container">
+    <h2>@Model.Name</h2>
+    <h3>Price: @Model.Price.ToString("C")</h3>
+    <p>@Model.Description</p>
+    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+    {
+        <img src="@Model.ImageUrl" alt="Product Image" />
+    }
+    <a asp-action="Index" class="back-link">Back to List</a>
+</div>

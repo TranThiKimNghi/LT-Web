@@ -1,0 +1,60 @@
+﻿@model Webbanhang.Models.Product
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<style>
+    body {
+        background-color: #1a233a;
+        color: #d0d9ff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h2 {
+        color: #a3c4f3;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    form {
+        background: linear-gradient(145deg, #2a3a72, #1b2650);
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 15px #4462ffcc;
+        max-width: 400px;
+        margin: 2rem auto;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+        color: #c3d0ff;
+    }
+
+    .btn-danger {
+        background-color: #ff5c5c;
+        border: none;
+        padding: 0.6rem 1.8rem;
+        font-weight: 700;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 12px #ff5c5ccc;
+        transition: background-color 0.3s ease;
+        color: #1a233a;
+        cursor: pointer;
+    }
+
+        .btn-danger:hover {
+            background-color: #e04141;
+            box-shadow: 0 0 18px #e04141cc;
+            color: #fff;
+        }
+</style>
+
+<h2>Delete Product</h2>
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <p>Are you sure you want to delete <strong>@Model.Name</strong>?</p>
+    <button type="submit" class="btn btn-danger">Delete</button>
+</form>

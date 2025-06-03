@@ -1,0 +1,126 @@
+﻿@model Webbanhang.Models.Product
+@using Microsoft.AspNetCore.Mvc.Rendering
+@{
+    ViewData["Title"] = "Add Product";
+}
+
+<style>
+    body {
+        background-color: #1a233a;
+        color: #d0d9ff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h2 {
+        color: #a3c4f3;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+    }
+
+    form {
+        background: linear-gradient(145deg, #2a3a72, #1b2650);
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 15px #4462ffcc;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    label {
+        color: #a3c4f3;
+        font-weight: 600;
+    }
+
+    .form-control, .form-select {
+        background-color: #2b3a72;
+        border: 1px solid #4462ff;
+        color: #d0d9ff;
+        transition: border-color 0.3s ease;
+        border-radius: 0.5rem;
+    }
+
+        .form-control:focus, .form-select:focus {
+            background-color: #364a9a;
+            border-color: #7abaff;
+            color: #fff;
+            box-shadow: 0 0 8px #7abaffcc;
+            outline: none;
+        }
+
+    .text-danger {
+        color: #ff6e6e !important;
+        font-weight: 600;
+    }
+
+    .btn-primary {
+        background-color: #7abaff;
+        border: none;
+        color: #1a233a;
+        font-weight: 700;
+        padding: 0.5rem 1.5rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 12px #7abaffcc;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #558cd4;
+            color: #fff;
+            box-shadow: 0 0 15px #335ec9cc;
+        }
+
+    /* Validation summary styling */
+    .validation-summary-errors {
+        background-color: #ff4a4a22;
+        border: 1px solid #ff4a4a;
+        padding: 0.75rem 1rem;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+        color: #ff4a4a;
+        font-weight: 700;
+    }
+</style>
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Add" method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="validation-summary-errors mb-3"></div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Price" class="form-label"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Description" class="form-label"></label>
+        <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="CategoryId" class="form-label">Category</label>
+        <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-select"></select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-4">
+        <label asp-for="ImageUrl" class="form-label">Product Image</label>
+        <input type="file" asp-for="ImageUrl" class="form-control" />
+        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

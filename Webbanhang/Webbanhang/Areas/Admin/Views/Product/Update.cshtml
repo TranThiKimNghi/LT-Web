@@ -1,0 +1,132 @@
+﻿@model Webbanhang.Models.Product
+@using Microsoft.AspNetCore.Mvc.Rendering
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<style>
+    body {
+        background-color: #1a233a;
+        color: #d0d9ff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h2 {
+        color: #a3c4f3;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    form {
+        background: linear-gradient(145deg, #2a3a72, #1b2650);
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 15px #4462ffcc;
+        max-width: 500px;
+        margin: 2rem auto;
+    }
+
+    .form-group {
+        margin-bottom: 1.25rem;
+    }
+
+    label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 0.4rem;
+        color: #8db0ff;
+    }
+
+    input.form-control,
+    select.form-control,
+    textarea.form-control {
+        width: 100%;
+        padding: 0.5rem 0.75rem;
+        border: 1px solid #5a75bf;
+        border-radius: 0.5rem;
+        background-color: #344a9d;
+        color: #d0d9ff;
+        font-size: 1rem;
+        transition: border-color 0.3s ease;
+    }
+
+        input.form-control:focus,
+        select.form-control:focus,
+        textarea.form-control:focus {
+            outline: none;
+            border-color: #7abaff;
+            box-shadow: 0 0 8px #7abaffaa;
+            background-color: #2a3a72;
+        }
+
+    textarea.form-control {
+        resize: vertical;
+        min-height: 100px;
+    }
+
+    span.text-danger {
+        color: #ff6b6b;
+        font-size: 0.875rem;
+    }
+
+    img {
+        display: block;
+        margin-top: 0.5rem;
+        max-width: 200px;
+        border-radius: 0.75rem;
+        box-shadow: 0 0 12px #7abaff88;
+    }
+
+    button.btn-primary {
+        background-color: #7abaff;
+        border: none;
+        padding: 0.6rem 1.5rem;
+        font-weight: 700;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 12px #7abaffcc;
+        color: #1a233a;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        button.btn-primary:hover {
+            background-color: #558cd4;
+            color: #fff;
+            box-shadow: 0 0 16px #335ec9cc;
+        }
+</style>
+
+<h2>Edit Product</h2>
+<form asp-action="Update" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CategoryId">Category</label>
+        <select asp-for="CategoryId" asp-items="@ViewBag.Categories" class="form-control"></select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ImageUrl">Product Image</label>
+        <input type="file" asp-for="ImageUrl" class="form-control" />
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <img src="@Model.ImageUrl" alt="Product Image" />
+        }
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
