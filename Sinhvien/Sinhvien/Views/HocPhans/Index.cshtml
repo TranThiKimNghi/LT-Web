@@ -1,0 +1,169 @@
+﻿@model IEnumerable<Sinhvien.Models.HocPhan>
+
+@{
+    ViewData["Title"] = "Danh sách Học phần"; // Đổi tiêu đề cho rõ ràng hơn
+}
+
+<style>
+    /* CSS tùy chỉnh để trang đẹp hơn */
+    body {
+        background-color: #e0f2f7; /* Màu nền nhẹ nhàng */
+    }
+
+    .container-fluid {
+        padding: 20px;
+    }
+
+    h1 {
+        color: #26547c; /* Màu tiêu đề */
+        margin-bottom: 25px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    /* Nút "Thêm học phần mới" (đã ẩn) */
+    .btn-primary {
+        background-color: #5d9cec; /* Màu xanh sáng hơn */
+        border-color: #5d9cec;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #4a8ad0; /* Màu hover */
+            border-color: #4a8ad0;
+        }
+
+    /* Bảng */
+    .table {
+        background-color: #ffffff; /* Nền bảng trắng */
+        border-radius: 8px; /* Bo tròn góc bảng */
+        overflow: hidden; /* Đảm bảo bo tròn góc hoạt động với border */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* Thêm đổ bóng */
+    }
+
+        .table thead th {
+            background-color: #374785; /* Nền header bảng khớp với navbar */
+            color: white; /* Chữ trắng trên nền header */
+            vertical-align: middle; /* Căn giữa theo chiều dọc */
+            padding: 12px 15px; /* Tăng padding */
+        }
+
+        .table tbody td {
+            vertical-align: middle; /* Căn giữa theo chiều dọc */
+            padding: 12px 15px; /* Tăng padding */
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #f8faff; /* Màu nền cho hàng chẵn để dễ nhìn */
+        }
+
+        .table tbody tr:hover {
+            background-color: #e6f0ff; /* Màu nền khi hover vào hàng */
+        }
+
+    /* Liên kết hành động (Edit, Details, Delete) đã bị loại bỏ, thay bằng nút Đăng ký */
+    .btn-register {
+        background-color: #4CAF50; /* Green color for Register button */
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-register:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+
+    /* Message styles for success/error (từ HocPhansController) */
+    .alert {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+
+    .alert-success {
+        color: #3c763d;
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+    }
+
+    .alert-danger {
+        color: #a94442;
+        background-color: #f2dede;
+        border-color: #ebccd1;
+    }
+</style>
+
+<div class="container-fluid">
+    <h1>DANH SÁCH HỌC PHẦN</h1>
+
+    @* Hiển thị thông báo thành công hoặc lỗi (từ TempData) *@
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    @* Đã bỏ nút "Thêm học phần mới" *@
+    @* <p>
+    <a asp-action="Add" class="btn btn-primary">
+    <i class="bi bi-journal-plus me-2"></i>Thêm học phần mới
+    </a>
+    </p> *@
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.MaHP)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TenHP)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SoTinChi)
+                </th>
+                <th></th> @* Cột cho nút Đăng ký *@
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MaHP)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TenHP)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SoTinChi)
+                    </td>
+                    <td>
+                        @* Nút Đăng ký *@
+                        <form asp-action="DangKy" method="post" onsubmit="return confirm('Bạn có chắc chắn muốn đăng ký học phần này?');">
+                            <input type="hidden" name="maHP" value="@item.MaHP" />
+                            <button type="submit" class="btn-register">Đăng ký</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Quản lý sinh viên</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Sinhvien.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <style>
+        body {
+            background-color: #f8faff; /* Màu nền nhẹ nhàng */
+            color: #2e3a59; /* Màu chữ chính */
+        }
+
+        header .navbar {
+            background-color: #374785 !important; /* Màu xanh đậm cho header */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Thêm shadow nhẹ */
+        }
+
+        header .navbar-brand,
+        header .nav-link {
+            color: #ffffff !important; /* Đảm bảo chữ trắng */
+            font-weight: 500;
+            font-size: 16px;
+            padding: 0.5rem 1rem; /* Thêm padding cho link */
+            border-radius: 0.3rem; /* Bo tròn nhẹ */
+            transition: background-color 0.2s ease; /* Hiệu ứng hover */
+        }
+
+            header .nav-link:hover {
+                background-color: rgba(255, 255, 255, 0.15); /* Nền hover sáng hơn */
+                border-radius: 5px;
+            }
+
+        footer {
+            padding: 15px 0;
+            background-color: #374785; /* Đồng bộ màu footer với header */
+            color: white;
+            text-align: center;
+            margin-top: 3rem; /* Thêm khoảng cách trên footer */
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.1); /* Thêm shadow nhẹ */
+        }
+
+        main {
+            padding: 30px 0;
+            min-height: calc(100vh - 120px); /* Đảm bảo main có chiều cao tối thiểu */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark border-bottom shadow-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="SinhViens" asp-action="Index">🎓 Quản lý sinh viên</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1 gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="SinhViens" asp-action="Index">Sinh viên</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="HocPhans" asp-action="Index">Học phần</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="DangKys" asp-action="Index">Đăng ký học phần</a>
+                        </li>
+                      
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="Admin" asp-controller="User" asp-action="Index">Quản lý người dùng</a>
+                            </li>
+                        }
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer border-top mt-5">
+        <div class="container">
+            &copy; 2025 - Quản lý sinh viên - Trần Thị Kim Nghi 💙
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

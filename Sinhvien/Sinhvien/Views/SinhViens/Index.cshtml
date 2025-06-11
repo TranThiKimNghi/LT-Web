@@ -1,0 +1,157 @@
+﻿@model IEnumerable<Sinhvien.Models.SinhVien>
+
+@{
+    ViewData["Title"] = "Danh sách Sinh viên"; // Đổi tiêu đề cho rõ ràng hơn
+}
+
+<style>
+    /* CSS tùy chỉnh để trang đẹp hơn */
+    .container-fluid {
+        padding: 20px;
+    }
+
+    h1 {
+        color: #374785; /* Màu tiêu đề khớp với navbar */
+        margin-bottom: 25px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .btn-primary {
+        background-color: #5d9cec; /* Màu xanh sáng hơn cho nút thêm mới */
+        border-color: #5d9cec;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #4a8ad0; /* Màu hover */
+            border-color: #4a8ad0;
+        }
+
+    .table {
+        background-color: #ffffff; /* Nền bảng trắng */
+        border-radius: 8px; /* Bo tròn góc bảng */
+        overflow: hidden; /* Đảm bảo bo tròn góc hoạt động với border */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* Thêm đổ bóng */
+    }
+
+        .table thead th {
+            background-color: #374785; /* Nền header bảng khớp với navbar */
+            color: white; /* Chữ trắng trên nền header */
+            vertical-align: middle; /* Căn giữa theo chiều dọc */
+            padding: 12px 15px; /* Tăng padding */
+        }
+
+        .table tbody td {
+            vertical-align: middle; /* Căn giữa theo chiều dọc */
+            padding: 12px 15px; /* Tăng padding */
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #f8faff; /* Màu nền cho hàng chẵn để dễ nhìn */
+        }
+
+        .table tbody tr:hover {
+            background-color: #e6f0ff; /* Màu nền khi hover vào hàng */
+        }
+
+    .action-links a {
+        margin-right: 10px; /* Khoảng cách giữa các link Edit/Details/Delete */
+        text-decoration: none; /* Bỏ gạch chân mặc định */
+        color: #5d9cec; /* Màu link khớp với nút Add */
+        font-weight: 500;
+        transition: color 0.2s ease;
+    }
+
+        .action-links a:hover {
+            color: #374785; /* Màu link khi hover */
+        }
+
+    .student-image {
+        width: 80px; /* Kích thước ảnh sinh viên */
+        height: 80px;
+        object-fit: cover; /* Đảm bảo ảnh không bị méo */
+        border-radius: 50%; /* Bo tròn ảnh thành hình tròn */
+        border: 2px solid #ddd; /* Viền ảnh */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<div class="container-fluid">
+    <h1>Danh sách Sinh viên</h1>
+
+    <p>
+        <a asp-action="Add" class="btn btn-primary">
+            <i class="bi bi-person-plus-fill me-2"></i>Thêm sinh viên mới
+        </a>
+    </p>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.MaSV)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HoTen)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.GioiTinh)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NgaySinh)
+                </th>
+                <th>
+                    Hình
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NganhHoc)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MaSV)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HoTen)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GioiTinh)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NgaySinh)
+                    </td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.Hinh))
+                        {
+                            <img src="@Url.Content(item.Hinh)" alt="Hình sinh viên" class="student-image" /> @* Đã sửa: bỏ "~/images/" *@
+                        }
+                        else
+                        {
+                            <span>Không có ảnh</span>
+                        }
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NganhHoc.TenNganh)
+                    </td>
+                    <td class="action-links">
+                        <a asp-action="Update" asp-route-id="@item.MaSV" title="Chỉnh sửa"><i class="bi bi-pencil-square"></i></a> |
+                        <a asp-action="Display" asp-route-id="@item.MaSV" title="Chi tiết"><i class="bi bi-info-circle-fill"></i></a> |
+                        <a asp-action="Delete" asp-route-id="@item.MaSV" title="Xóa"><i class="bi bi-trash-fill"></i></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

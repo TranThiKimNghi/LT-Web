@@ -8496,11 +8496,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Webbanhang.csproj",
+      "projectUniqueName": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Webbanhang.csproj",
       "projectName": "Webbanhang",
-      "projectPath": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Webbanhang.csproj",
+      "projectPath": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Webbanhang.csproj",
       "packagesPath": "C:\\Users\\Kim Nghi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\obj\\",
+      "outputPath": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kim Nghi\\AppData\\Roaming\\NuGet\\NuGet.Config",

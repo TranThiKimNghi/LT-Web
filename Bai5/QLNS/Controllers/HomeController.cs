@@ -13,9 +13,12 @@ namespace QLNS.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            string data = await GetDataAsync();
+            ViewBag.Message = data;
             return View();
+
         }
 
         public IActionResult Privacy()
@@ -28,5 +31,16 @@ namespace QLNS.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
+        public async Task<string> GetDataAsync()
+        {
+            await Task.Delay(5000);
+            return "Xin chaof cac ban nhe";
+        }
+
+
+
+
     }
 }

@@ -1,0 +1,198 @@
+﻿@model Sinhvien.Models.SinhVien
+
+@{
+    ViewData["Title"] = "Xóa Sinh viên"; // Đổi tiêu đề rõ ràng hơn
+}
+
+<style>
+    /* CSS tùy chỉnh để trang đẹp hơn */
+    body {
+        background-color: #e0f2f7; /* Màu nền nhẹ nhàng */
+    }
+
+    .container {
+        padding: 30px 0; /* Tăng padding tổng thể */
+    }
+
+    h1 {
+        color: #26547c; /* Màu tiêu đề */
+        margin-bottom: 35px; /* Tăng khoảng cách dưới tiêu đề */
+        font-weight: 700; /* Đậm hơn */
+        text-align: center;
+        letter-spacing: 1px; /* Tăng khoảng cách chữ */
+    }
+
+    h3 {
+        color: #dc3545; /* Màu đỏ cho câu hỏi xác nhận xóa */
+        text-align: center;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+
+    /* Khối chi tiết sinh viên (hiển thị thông tin trước khi xóa) */
+    .details-card {
+        background-color: #ffffff; /* Nền trắng */
+        padding: 30px;
+        border-radius: 12px; /* Bo tròn góc */
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Đổ bóng mạnh hơn */
+        margin-bottom: 30px;
+    }
+
+    h4 {
+        color: #374785; /* Màu cho tiêu đề "SinhVien" */
+        margin-bottom: 25px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.8rem;
+    }
+
+    hr {
+        border-top: 2px solid #a7d9f2; /* Màu thanh HR */
+        margin-bottom: 30px;
+        width: 80%; /* Chiều rộng thanh HR */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dl-horizontal dt {
+        color: #386fa4; /* Màu chữ cho các nhãn (label) */
+        font-weight: bold;
+        text-align: right;
+        padding-right: 15px;
+        margin-bottom: 10px; /* Khoảng cách giữa các dt */
+    }
+
+    .dl-horizontal dd {
+        color: #2e3a59; /* Màu chữ cho giá trị */
+        margin-bottom: 10px; /* Khoảng cách giữa các dd */
+    }
+
+    /* Hiển thị hình ảnh */
+    .student-detail-image {
+        max-width: 200px; /* Kích thước ảnh */
+        height: auto;
+        display: block;
+        margin: 0 auto 20px auto; /* Căn giữa và khoảng cách dưới */
+        border-radius: 8px; /* Bo tròn góc ảnh */
+        border: 3px solid #b3e0ff; /* Viền ảnh */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Nút */
+    .btn-action {
+        background-color: #5d9cec; /* Màu xanh sáng hơn */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px; /* Bo tròn */
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-weight: 600;
+        text-decoration: none; /* Bỏ gạch chân link */
+        display: inline-block; /* Để các nút nằm cạnh nhau */
+        margin: 0 5px; /* Khoảng cách giữa các nút */
+    }
+
+        .btn-action:hover {
+            background-color: #4a8ad0; /* Màu hover */
+            transform: translateY(-1px); /* Hiệu ứng nhấc lên */
+            box-shadow: 0 4px 10px rgba(74, 138, 208, 0.4);
+        }
+
+    .btn-back {
+        background-color: #6c757d; /* Màu xám cho nút "Back" */
+    }
+
+        .btn-back:hover {
+            background-color: #5a6268;
+        }
+
+    .btn-delete-danger {
+        background-color: #dc3545; /* Màu đỏ cho nút xóa */
+        border-color: #dc3545;
+    }
+
+        .btn-delete-danger:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+        }
+</style>
+
+<div class="container">
+    <h1>XÓA SINH VIÊN</h1>
+
+    <h3>Bạn có chắc chắn muốn xóa sinh viên này?</h3>
+    <div class="details-card">
+        <h4>Thông tin Sinh viên</h4>
+        <hr />
+        <dl class="row dl-horizontal">
+            @* Hiển thị hình ảnh sinh viên *@
+            <dt class="col-sm-12 text-center mb-3">
+                @if (!string.IsNullOrEmpty(Model.Hinh))
+                {
+                    <img src="@Url.Content(Model.Hinh)" alt="Hình sinh viên" class="student-detail-image" />
+                }
+                else
+                {
+                    <span>Không có ảnh</span>
+                }
+            </dt>
+
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.MaSV)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.MaSV)
+            </dd>
+
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.HoTen)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.HoTen)
+            </dd>
+
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.GioiTinh)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.GioiTinh)
+            </dd>
+
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.NgaySinh)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.NgaySinh)
+            </dd>
+
+            @* Bỏ dòng hiển thị đường dẫn hình ảnh vì đã hiển thị ảnh trực tiếp *@
+            @* <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Hinh)
+            </dt>
+            <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Hinh)
+            </dd> *@
+
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.NganhHoc)
+            </dt>
+            <dd class="col-sm-8">
+                @* Hiển thị TenNganh thay vì MaNganh *@
+                @Html.DisplayFor(model => model.NganhHoc.TenNganh)
+            </dd>
+        </dl>
+    </div>
+
+    <form asp-action="Delete" class="text-center mt-4">
+        <input type="hidden" asp-for="MaSV" />
+        <input type="submit" value="Xóa" class="btn-action btn-delete-danger" />
+        <a asp-action="Index" class="btn-action btn-back">Quay lại danh sách</a>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

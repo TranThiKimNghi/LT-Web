@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|c:\\users\\kim nghi\\source\\repos\\web\\bai5\\qlns\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|solutionrelative:qlns\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|c:\\users\\kim nghi\\source\\repos\\web\\bai5\\qlns\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|c:\\users\\kim nghi\\source\\repos\\web\\bai5\\qlns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|solutionrelative:qlns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|c:\\users\\kim nghi\\source\\repos\\web\\bai5\\qlns\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|solutionrelative:qlns\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|c:\\users\\kim nghi\\source\\repos\\web\\bai5\\qlns\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|c:\\users\\kim nghi\\source\\repos\\web\\bai5\\qlns\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|solutionrelative:qlns\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|c:\\users\\kim nghi\\source\\repos\\web\\bai5\\qlns\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|c:\\users\\kim nghi\\source\\repos\\web\\bai5\\qlns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|solutionrelative:qlns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|c:\\users\\kim nghi\\source\\repos\\web\\bai5\\qlns\\views\\book\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\book\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|c:\\users\\kim nghi\\source\\repos\\web\\bai5\\qlns\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|solutionrelative:qlns\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|c:\\users\\kim nghi\\source\\repos\\web\\bai5\\qlns\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -55,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\bookimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|c:\\users\\kim nghi\\source\\repos\\web\\bai5\\qlns\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|c:\\users\\kim nghi\\source\\repos\\web\\bai5\\qlns\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{442DC099-FB3B-4883-894D-9B08FA724CDC}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -73,7 +85,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -89,7 +101,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Program.cs",
+              "RelativeDocumentMoniker": "QLNS\\Program.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Program.cs",
+              "RelativeToolTip": "QLNS\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:52:38.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Controllers\\BookController.cs",
+              "RelativeToolTip": "QLNS\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:39:38.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "demoController.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Controllers\\demoController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Controllers\\demoController.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Controllers\\demoController.cs",
+              "RelativeToolTip": "QLNS\\Controllers\\demoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T06:51:25.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Views\\Book\\Delete.cshtml",
               "RelativeDocumentMoniker": "QLNS\\Views\\Book\\Delete.cshtml",
@@ -101,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Views\\Book\\Edit.cshtml",
               "RelativeDocumentMoniker": "QLNS\\Views\\Book\\Edit.cshtml",
@@ -113,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Views\\Book\\Index.cshtml",
               "RelativeDocumentMoniker": "QLNS\\Views\\Book\\Index.cshtml",
@@ -125,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Views\\Book\\Details.cshtml",
               "RelativeDocumentMoniker": "QLNS\\Views\\Book\\Details.cshtml",
@@ -133,36 +183,48 @@
               "RelativeToolTip": "QLNS\\Views\\Book\\Details.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T15:52:20.293Z",
+              "WhenOpened": "2025-05-24T15:52:20.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "QLNS\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Models\\Book.cs",
+              "RelativeToolTip": "QLNS\\Models\\Book.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:42:22.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "QLNS\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T06:51:45.763Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "QLNS\\Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Controllers\\BookController.cs",
-              "RelativeToolTip": "QLNS\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAADwv2QAAAAgAAAAAAAAAA==",
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "QLNS\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "QLNS\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T14:39:38.338Z"
+              "WhenOpened": "2025-05-28T06:51:53.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Program.cs",
-              "RelativeDocumentMoniker": "QLNS\\Program.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Program.cs",
-              "RelativeToolTip": "QLNS\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T13:52:38.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Views\\Book\\Create.cshtml",
               "RelativeDocumentMoniker": "QLNS\\Views\\Book\\Create.cshtml",
@@ -174,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "QLNS\\wwwroot\\css\\site.css",
@@ -186,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "20250524141629_Bang.cs",
               "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Migrations\\20250524141629_Bang.cs",
               "RelativeDocumentMoniker": "QLNS\\Migrations\\20250524141629_Bang.cs",
@@ -198,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "BookImage.cs",
               "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Models\\BookImage.cs",
               "RelativeDocumentMoniker": "QLNS\\Models\\BookImage.cs",
@@ -210,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\appsettings.json",
               "RelativeDocumentMoniker": "QLNS\\appsettings.json",
@@ -222,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "20250524143031_Set Data.cs",
               "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Migrations\\20250524143031_Set Data.cs",
               "RelativeDocumentMoniker": "QLNS\\Migrations\\20250524143031_Set Data.cs",
@@ -234,19 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "QLNS\\Models\\Book.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Models\\Book.cs",
-              "RelativeToolTip": "QLNS\\Models\\Book.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T13:42:22.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "BookDBContext.cs",
               "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Models\\BookDBContext.cs",
               "RelativeDocumentMoniker": "QLNS\\Models\\BookDBContext.cs",
@@ -258,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Bai5\\QLNS\\Models\\Category.cs",
               "RelativeDocumentMoniker": "QLNS\\Models\\Category.cs",
@@ -270,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "20250524135447_Bang.cs",
               "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\QLNS\\QLNS\\Migrations\\20250524135447_Bang.cs",
               "RelativeDocumentMoniker": "..\\..\\QLNS\\QLNS\\Migrations\\20250524135447_Bang.cs",

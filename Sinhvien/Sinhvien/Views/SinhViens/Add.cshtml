@@ -1,0 +1,121 @@
+﻿@model Sinhvien.Models.SinhVien
+
+@{
+    ViewData["Title"] = "Add";
+}
+
+<style>
+    /* General body background */
+    body {
+        background-color: #e0f2f7; /* A very light blue */
+    }
+
+    /* Card-like effect for the form container */
+    .row {
+        background-color: #ffffff; /* White background for the form area */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        margin-top: 20px;
+    }
+
+    h1, h4 {
+        color: #26547c; /* A darker blue for headings */
+    }
+
+    .control-label {
+        color: #386fa4; /* A medium blue for labels */
+        font-weight: bold;
+    }
+
+    .form-control {
+        border-color: #87bbed; /* Light blue border for inputs */
+        box-shadow: none; /* Remove default box-shadow if any */
+    }
+
+        .form-control:focus {
+            border-color: #5b9bd5; /* A slightly darker blue on focus */
+            box-shadow: 0 0 0 0.2rem rgba(91, 155, 213, 0.25); /* Light blue glow on focus */
+        }
+
+    .btn-primary {
+        background-color: #4CAF50; /* Green for primary button */
+        border-color: #4CAF50; /* Green border for primary button */
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #45a049; /* Darker green on hover */
+            border-color: #45a049;
+        }
+
+    .text-danger {
+        color: #dc3545; /* Standard red for validation messages */
+    }
+
+    a {
+        color: #007bff; /* Standard blue for links */
+    }
+
+        a:hover {
+            color: #0056b3; /* Darker blue on link hover */
+            text-decoration: underline;
+        }
+</style>
+
+<h1>Add</h1>
+
+<h4>SinhVien</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        @* Cần thêm enctype="multipart/form-data" để cho phép upload file *@
+        <form asp-action="Add" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MaSV" class="control-label"></label>
+                <input asp-for="MaSV" class="form-control" />
+                <span asp-validation-for="MaSV" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HoTen" class="control-label"></label>
+                <input asp-for="HoTen" class="form-control" />
+                <span asp-validation-for="HoTen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GioiTinh" class="control-label"></label>
+                <input asp-for="GioiTinh" class="form-control" />
+                <span asp-validation-for="GioiTinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgaySinh" class="control-label"></label>
+                <input asp-for="NgaySinh" class="form-control" />
+                <span asp-validation-for="NgaySinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Hinh" class="control-label">Chọn hình ảnh</label>
+                @* Đã sửa input type thành "file" và thêm name="hinhAnh" *@
+                <input type="file" name="hinhAnh" class="form-control" accept="image/*" />
+                <span asp-validation-for="Hinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaNganh" class="control-label"></label>
+                <select asp-for="MaNganh" class="form-control" asp-items="ViewBag.NganhHocs"></select>
+                @* Đã sửa asp-items từ ViewBag.MaNganh sang ViewBag.NganhHocs để khớp với controller *@
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

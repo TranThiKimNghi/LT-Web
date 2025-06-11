@@ -1,157 +1,157 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\",
+  "WorkspaceRootPath": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\areas\\admin\\views\\categories\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\areas\\admin\\views\\categories\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\areas\\admin\\views\\categories\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\areas\\admin\\views\\categories\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\areas\\admin\\views\\categories\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\areas\\admin\\views\\categories\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\areas\\admin\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\areas\\admin\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\areas\\admin\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\areas\\admin\\views\\categories\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\areas\\admin\\views\\categories\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\areas\\admin\\views\\categories\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\areas\\member\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\areas\\member\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\areas\\member\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\models\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\models\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\models\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\views\\categories\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\views\\categories\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\views\\categories\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\views\\categories\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\views\\categories\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\views\\categories\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\views\\categories\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\views\\categories\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\views\\categories\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\repositories\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\repositories\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\repositories\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\webbanhang\\webbanhang\\migrations\\20250603165949_bang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|c:\\users\\kim nghi\\source\\repos\\web\\webbanhang\\webbanhang\\migrations\\20250603165949_bang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D44B3389-588A-48D8-9463-173FBF298519}|Webbanhang\\Webbanhang.csproj|solutionrelative:webbanhang\\migrations\\20250603165949_bang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -180,22 +180,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Update.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Areas\\Admin\\Views\\Categories\\Update.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Update.cshtml",
               "RelativeToolTip": "Webbanhang\\Areas\\Admin\\Views\\Categories\\Update.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T19:06:38.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T19:06:38.972Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
               "RelativeToolTip": "Webbanhang\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -206,139 +205,129 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Display.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Display.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Display.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Areas\\Admin\\Views\\Categories\\Display.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Display.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Display.cshtml",
               "RelativeToolTip": "Webbanhang\\Areas\\Admin\\Views\\Categories\\Display.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T19:06:30.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T19:06:30.184Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
               "RelativeToolTip": "Webbanhang\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T19:06:27.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T19:06:27.248Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Add.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Areas\\Admin\\Views\\Categories\\Add.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Admin\\Views\\Categories\\Add.cshtml",
               "RelativeToolTip": "Webbanhang\\Areas\\Admin\\Views\\Categories\\Add.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T19:06:23.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T19:06:23.849Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Webbanhang\\Areas\\Admin\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAJYAAAAAAAAAAAAmwMIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T17:56:27.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T17:56:27.208Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Admin\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Areas\\Admin\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Admin\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "Webbanhang\\Areas\\Admin\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAmwIsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T18:05:47.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T18:05:47.514Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Product\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "Webbanhang\\Views\\Product\\Index.cshtml",
               "ViewState": "AgIAAJYAAAAAAAAAAAAAACUAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T13:30:22.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T13:30:22.358Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Display.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Product\\Display.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Product\\Display.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Views\\Product\\Display.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Product\\Display.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Product\\Display.cshtml",
               "RelativeToolTip": "Webbanhang\\Views\\Product\\Display.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T13:30:33.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T13:30:33.098Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Models\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Models\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Models\\ApplicationDbContext.cs",
               "RelativeToolTip": "Webbanhang\\Models\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T13:12:49.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T13:12:49.962Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Models\\ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Models\\ApplicationUser.cs",
               "RelativeToolTip": "Webbanhang\\Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T14:46:31.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T14:46:31.004Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\appsettings.json",
               "RelativeDocumentMoniker": "Webbanhang\\appsettings.json",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\appsettings.json",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\appsettings.json",
               "RelativeToolTip": "Webbanhang\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-03T18:34:01.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T18:34:01.407Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Member\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Member\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Areas\\Member\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Member\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Member\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Webbanhang\\Areas\\Member\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -348,22 +337,21 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Program.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Program.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Program.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Program.cs",
               "RelativeToolTip": "Webbanhang\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T13:13:57.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T13:13:57.558Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Webbanhang\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAmwFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -373,9 +361,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Controllers\\CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "Webbanhang\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -385,9 +373,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Webbanhang\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAHkAAAAAAAAAAADwv5AAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -397,9 +385,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Models\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Models\\Product.cs",
               "RelativeToolTip": "Webbanhang\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -409,9 +397,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeToolTip": "Webbanhang\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAkwDkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -421,9 +409,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "Webbanhang\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AgIAAIkAAAAAAAAAAAAgwKYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -433,9 +421,9 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "Webbanhang\\ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\ScaffoldingReadMe.txt",
               "RelativeToolTip": "Webbanhang\\ScaffoldingReadMe.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
@@ -445,9 +433,9 @@
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "SD.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Models\\SD.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Models\\SD.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Models\\SD.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Models\\SD.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Models\\SD.cs",
               "RelativeToolTip": "Webbanhang\\Models\\SD.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -457,9 +445,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Shared\\_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeToolTip": "Webbanhang\\Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -469,9 +457,9 @@
               "$type": "Document",
               "DocumentIndex": 37,
               "Title": "20250603165949_bang.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Migrations\\20250603165949_bang.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Migrations\\20250603165949_bang.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Migrations\\20250603165949_bang.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Migrations\\20250603165949_bang.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Migrations\\20250603165949_bang.cs",
               "RelativeToolTip": "Webbanhang\\Migrations\\20250603165949_bang.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAABBwAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -481,9 +469,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "ProductImage.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Models\\ProductImage.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Models\\ProductImage.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Models\\ProductImage.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Models\\ProductImage.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Models\\ProductImage.cs",
               "RelativeToolTip": "Webbanhang\\Models\\ProductImage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -493,9 +481,9 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Categories\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Views\\Categories\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Categories\\Index.cshtml",
               "RelativeToolTip": "Webbanhang\\Views\\Categories\\Index.cshtml",
               "ViewState": "AgIAAHIAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -505,9 +493,9 @@
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Categories\\Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Categories\\Update.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Views\\Categories\\Update.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Categories\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Categories\\Update.cshtml",
               "RelativeToolTip": "Webbanhang\\Views\\Categories\\Update.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -517,9 +505,9 @@
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "Display.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Categories\\Display.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Categories\\Display.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Views\\Categories\\Display.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Categories\\Display.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Categories\\Display.cshtml",
               "RelativeToolTip": "Webbanhang\\Views\\Categories\\Display.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -529,9 +517,9 @@
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Categories\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Categories\\Delete.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Views\\Categories\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Categories\\Delete.cshtml",
               "RelativeToolTip": "Webbanhang\\Views\\Categories\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -541,9 +529,9 @@
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Categories\\Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Categories\\Add.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Views\\Categories\\Add.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Categories\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Categories\\Add.cshtml",
               "RelativeToolTip": "Webbanhang\\Views\\Categories\\Add.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -553,9 +541,9 @@
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Product\\Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Product\\Add.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Views\\Product\\Add.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Product\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Product\\Add.cshtml",
               "RelativeToolTip": "Webbanhang\\Views\\Product\\Add.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -565,9 +553,9 @@
               "$type": "Document",
               "DocumentIndex": 30,
               "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Models\\Category.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Models\\Category.cs",
               "RelativeToolTip": "Webbanhang\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -577,9 +565,9 @@
               "$type": "Document",
               "DocumentIndex": 31,
               "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Product\\Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Product\\Update.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Views\\Product\\Update.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Product\\Update.cshtml",
               "RelativeToolTip": "Webbanhang\\Views\\Product\\Update.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -589,9 +577,9 @@
               "$type": "Document",
               "DocumentIndex": 32,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Product\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Product\\Delete.cshtml",
               "RelativeDocumentMoniker": "Webbanhang\\Views\\Product\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Views\\Product\\Delete.cshtml",
               "RelativeToolTip": "Webbanhang\\Views\\Product\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -601,9 +589,9 @@
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Repositories\\IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Repositories\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Repositories\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Repositories\\IProductRepository.cs",
               "RelativeToolTip": "Webbanhang\\Repositories\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -613,9 +601,9 @@
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "EFProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Repositories\\EFProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Repositories\\EFProductRepository.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Repositories\\EFProductRepository.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Repositories\\EFProductRepository.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Repositories\\EFProductRepository.cs",
               "RelativeToolTip": "Webbanhang\\Repositories\\EFProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -625,9 +613,9 @@
               "$type": "Document",
               "DocumentIndex": 35,
               "Title": "EFCategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Repositories\\EFCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Repositories\\EFCategoryRepository.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Repositories\\EFCategoryRepository.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Repositories\\EFCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Repositories\\EFCategoryRepository.cs",
               "RelativeToolTip": "Webbanhang\\Repositories\\EFCategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -637,9 +625,9 @@
               "$type": "Document",
               "DocumentIndex": 36,
               "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Repositories\\ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Repositories\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "Webbanhang\\Repositories\\ICategoryRepository.cs",
-              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Webbanhang\\Webbanhang\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Kim Nghi\\source\\repos\\Web\\Webbanhang\\Webbanhang\\Repositories\\ICategoryRepository.cs",
               "RelativeToolTip": "Webbanhang\\Repositories\\ICategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

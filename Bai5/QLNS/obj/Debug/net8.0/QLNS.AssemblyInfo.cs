@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QLNS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67fbee529b8d10dcd53a45d725c4207775cae227")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f91b3c5501f31cb0befbc5b7ed548b7fddb54010")]
 [assembly: System.Reflection.AssemblyProductAttribute("QLNS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QLNS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
